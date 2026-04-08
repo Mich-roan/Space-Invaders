@@ -3,7 +3,8 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class Asteroid : MonoBehaviour
-{
+{ 
+  [SerializeField]
   private Animator animator;
   private Transform target;
   private Health health;
@@ -21,7 +22,6 @@ public class Asteroid : MonoBehaviour
   private Collider asteroidCollider;
   private void Awake()
     {
-        animator = GetComponent<Animator>();
         health = GetComponent<Health>();
         asteroidCollider = GetComponent<Collider>();
     }
@@ -45,6 +45,7 @@ public class Asteroid : MonoBehaviour
         {
             Vector3 direction = (target.position - transform.position).normalized;
             transform.position += direction * speed * Time.deltaTime;
+            transform.LookAt(target);
             if (Vector3.Distance(transform.position, target.position) <= distanceToTarget)
             {
                 target.GetComponent<Health>().TakeDamage(asteroidDamage);

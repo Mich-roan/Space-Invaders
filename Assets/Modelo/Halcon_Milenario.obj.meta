@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Mesh10_FrontLowerBays1_Group1_Millennium_Falcon1_ModelMat
-    second: {instanceID: 0}
+    second: {fileID: 2100000, guid: c0c00ebac57c858468a5bd40a505678a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
