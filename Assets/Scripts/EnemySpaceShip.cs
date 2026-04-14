@@ -22,7 +22,7 @@ public class EnemySpaceShip : MonoBehaviour
    private UnityEvent<Transform> onDestroyed;
    public UnityEvent<Transform> OnDestroyed => onDestroyed;
    private Coroutine animationCoroutine;
-   private Health TargetHealth
+   public Health TargetHealth
    {
         set
         {
@@ -63,6 +63,7 @@ public class EnemySpaceShip : MonoBehaviour
     private void OnDisable()
     {
      targetHealth = null;
+     onDestroyed.Invoke(transform);
      onDestroyed.RemoveAllListeners();     
      if (animationCoroutine != null)
         {
