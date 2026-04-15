@@ -597,6 +597,8 @@ MonoBehaviour:
   bulletPivot: {fileID: 5091217392450755416}
   flyAnimationNames:
   - Fly1
+  - Fly2
+  - Fly3
   animator: {fileID: 1763484558707391346}
   targetHealth: {fileID: 0}
   health: {fileID: 6309106301918608169}
@@ -617,7 +619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   _healthSlider: {fileID: 8781843683837855113}
-  _maxHealth: 100
+  _maxHealth: 30
   _onTakeDamage:
     m_PersistentCalls:
       m_Calls: []

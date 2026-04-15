@@ -119,6 +119,80 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &4673813
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1702534584}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.10441873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.10441873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.10441873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.88
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.87
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.33
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0014369965
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180.165
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_Name
+      value: Halo DMR
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+--- !u!4 &4673814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+  m_PrefabInstance: {fileID: 4673813}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &15322177
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +301,7 @@ Transform:
   m_GameObject: {fileID: 144435757}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: -5.6, z: -2.416504}
+  m_LocalPosition: {x: -1.05, y: -5.6, z: -1.64}
   m_LocalScale: {x: 0.25862968, y: 0.25862968, z: 0.25862968}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -337,6 +411,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
+  - {fileID: 1180109559}
   - {fileID: 952799212}
   m_Father: {fileID: 2009120165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -613,7 +688,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &312809222
 Transform:
   m_ObjectHideFlags: 0
@@ -623,8 +698,8 @@ Transform:
   m_GameObject: {fileID: 312809221}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 567.2862, y: 8.49999, z: -4437.3223}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 567.2862, y: 0.4, z: -4437.3223}
+  m_LocalScale: {x: 0.69948, y: 0.69948, z: 0.69948}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 436930000}
@@ -853,7 +928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   _healthSlider: {fileID: 864424950}
-  _maxHealth: 100
+  _maxHealth: 50
   _onTakeDamage:
     m_PersistentCalls:
       m_Calls:
@@ -1550,6 +1625,18 @@ MonoBehaviour:
           m_StringArgument: Explode
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1540453686}
+        m_TargetAssemblyTypeName: InstantiatePoolObjects, Assembly-CSharp
+        m_MethodName: InstantiateObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 50
+          m_FloatArgument: 0
+          m_StringArgument: Explode
+          m_BoolArgument: 0
+        m_CallState: 2
   numberOfAsteroids: 10
   onAllAsteroidsDestroyed:
     m_PersistentCalls:
@@ -1564,6 +1651,21 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onInstantiateAsteroid:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1419136427}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Meteor
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!4 &810956495
@@ -1809,8 +1911,8 @@ Transform:
   m_GameObject: {fileID: 903947618}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 567.2862, y: 8.49999, z: -4437.3223}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 567.2862, y: 16.3, z: -4437.3223}
+  m_LocalScale: {x: 0.56689, y: 0.56689, z: 0.56689}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1383784276}
@@ -2010,7 +2112,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &952799212
 Transform:
   m_ObjectHideFlags: 0
@@ -2530,7 +2632,7 @@ Transform:
   m_GameObject: {fileID: 1083530961}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.27490234, y: 0.3492098, z: -2.416504}
+  m_LocalPosition: {x: -0.27490234, y: 0.3492098, z: -0.7}
   m_LocalScale: {x: 0.25862968, y: 0.25862968, z: 0.25862968}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2719,10 +2821,96 @@ MonoBehaviour:
           m_StringArgument: Game
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1419136427}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
+          m_BoolArgument: 0
+        m_CallState: 2
   onPointerEnterAnimationName: PointerEnter
   onPointerExitAnimationName: PointerExit
   onPointerClickAnimationName: Click
   animator: {fileID: 1142001994}
+--- !u!1001 &1180109558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 158087777}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.10441873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.10441873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.10441873
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9299998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.84
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.69
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0014369965
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180.165
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+      propertyPath: m_Name
+      value: Halo DMR
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+--- !u!4 &1180109559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c877020164a063345b3fc66c814b88ad, type: 3}
+  m_PrefabInstance: {fileID: 1180109558}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &1347003812
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -2945,7 +3133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb82203dc5bae4c4eb90aadb5095194e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InstantiatePoolObjects
-  prefab: {fileID: 8509966237750817710, guid: cad3bccc5a32df14c860262257c0a3dc, type: 3}
+  prefab: {fileID: 157818047393014784, guid: dfc89f4f801385347856fa9e66559693, type: 3}
 --- !u!4 &1414522786
 Transform:
   m_ObjectHideFlags: 0
@@ -3129,6 +3317,51 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2308.5781, y: 0, z: 1098.8466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1540453685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540453687}
+  - component: {fileID: 1540453686}
+  m_Layer: 0
+  m_Name: InstantiateParticles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1540453686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540453685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb82203dc5bae4c4eb90aadb5095194e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstantiatePoolObjects
+  prefab: {fileID: 4381207188521012781, guid: 9210071911da8974c89dd5b3e3adf7a1, type: 3}
+--- !u!4 &1540453687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540453685}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1979.2917, y: -0.00023, z: 1494.6615}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3340,6 +3573,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1814498740}
+  - {fileID: 4673814}
   m_Father: {fileID: 2009120165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1702534585
@@ -3484,10 +3718,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpaceShipManager
   playerHealth: {fileID: 371694031}
-  numberOfSpaceShips: 5
+  numberOfSpaceShips: 2
   spaceshipPool: {fileID: 1590167246}
   bulletPool: {fileID: 1414522785}
-  timeToSpawn: 15
+  onInstantiateShip:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1419136427}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nave
+          m_BoolArgument: 0
+        m_CallState: 2
+  timeToSpawn: 10
   onShipDestroyed:
     m_PersistentCalls:
       m_Calls:
@@ -3503,12 +3752,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1419136427}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: Explosion
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1540453686}
+        m_TargetAssemblyTypeName: InstantiatePoolObjects, Assembly-CSharp
+        m_MethodName: InstantiateObject
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: Explosion
+          m_BoolArgument: 0
+        m_CallState: 2
   onAllShipsDestroyed:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1939486888}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: AllAsteroidsDestroyed
+        m_MethodName: AllShipsDestroyed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3612,7 +3885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1814498740
 Transform:
   m_ObjectHideFlags: 0
@@ -3863,7 +4136,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: fondo
+          m_StringArgument: Escena
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 371694031}
@@ -4438,6 +4711,18 @@ MonoBehaviour:
           m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1419136427}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Button
+          m_BoolArgument: 0
+        m_CallState: 2
   onPointerEnterAnimationName: PointerEnter
   onPointerExitAnimationName: PointerExit
   onPointerClickAnimationName: Click
@@ -4570,9 +4855,10 @@ SceneRoots:
   - {fileID: 1419136428}
   - {fileID: 1923290308}
   - {fileID: 371694030}
+  - {fileID: 1939486889}
   - {fileID: 1414522786}
+  - {fileID: 1540453687}
   - {fileID: 1721105603}
   - {fileID: 1590167247}
   - {fileID: 1461026240}
-  - {fileID: 1939486889}
   - {fileID: 1383784276}
